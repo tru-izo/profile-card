@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-avatar img {
+  border-radius: 50%;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  font-size: 18px;
+}
