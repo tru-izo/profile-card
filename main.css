@@ -111,8 +111,22 @@ span {
 
 /* media queries */
 
-@media (max-width:475px){
-    .attribution {
-        font-size:14px;
-    }
+@media (max-width: 475px) {
+  .attribution {
+    font-size: 14px;
+  }
+
+  .pattern-top img {
+    width: 600px;
+    top: -300px;
+    left: -375px;
+  }
+
+  .pattern-bottom img {
+    width: 620px;
+    bottom: -300px;
+    right: -375px;
+  }
 }
+
+
