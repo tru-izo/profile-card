@@ -40,7 +40,7 @@ body {
   height: 375px;
   border-radius: 15px;
   position: relative;
-  color: rgb(141, 138, 138);
+  color: #8d8a8a;
   overflow: hidden;
 }
 
@@ -59,12 +59,60 @@ body {
 
 span {
   color: #000;
-  font-weight: 500px;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.bio-area {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.location p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.card-footer {
+  border-top: 1px solid #ccc9c98e;
+  font-size: 11px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item p {
+  margin: 5px;
+  letter-spacing: 1px;
+}
+
+.item span {
+  display: block;
+  align-items: center;
 }
 
 .attribution {
   position: fixed;
   bottom: 0;
   font-size: 18px;
+  padding: 10px;
+}
+
+/* media queries */
+
+@media (max-width:475px){
+    .attribution {
+        font-size:14px;
+    }
 }
