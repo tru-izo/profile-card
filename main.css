@@ -8,10 +8,32 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color:#fff;
+  width: 345px;
+  height: 375px;
+  border-radius: 15px;
+  position: relative;
+  color: rgb(141, 138, 138);
+}
+
+.card-svg {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .profile-avatar img {
   border-radius: 50%;
+  left: 35%;
+  top: 23%;
+  position: absolute;
+  border: 5px solid white;
 }
 
 .attribution {
